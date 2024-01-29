@@ -40,9 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "`npm install` ou `yarn install`",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "msw": "^2.1.5"
+  }
 }

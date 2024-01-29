@@ -12,6 +12,7 @@ describe('testes para o componente principal', () => {
     expect(screen.getByText('Olha só que legal minha miniatura do Batmóvel.')).toBeInTheDocument()
   })
 
+
   test.each(comments)("deve adicionar dois comentarios", (comment: Matcher) => {
     render(<App />)
     fireEvent.change(screen.getByTestId('comment-field'), { target: { value: comment } })
